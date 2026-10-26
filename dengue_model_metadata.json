@@ -1,0 +1,27 @@
+{
+  "features": [
+    "City",
+    "month_sin",
+    "month_cos",
+    "lag_1",
+    "lag_3",
+    "lag_12",
+    "rolling_mean_3",
+    "rolling_mean_6"
+  ],
+  "categorical_features": [
+    "City"
+  ],
+  "selected_config": {
+    "feature_set": "basic",
+    "depth": 3,
+    "learning_rate": 0.07,
+    "l2_leaf_reg": 3.0,
+    "log_target": false
+  },
+  "iterations": 179,
+  "log_target": false,
+  "train_end": "2018-12",
+  "evaluation_period": "2019-2020 (previously inspected; diagnostic only)",
+  "forecast_month": "2021-01"
+}
